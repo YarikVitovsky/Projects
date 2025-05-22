@@ -1,38 +1,32 @@
-# 🐶🐱 Cat vs Dog Image Classifier
-
+🐶🐱 Cat vs Dog Image Classifier
 A simple image classification app that predicts whether an image contains a cat or a dog — using transfer learning with VGG16, and deployed on Hugging Face Spaces using Gradio.
 
----
+🔍 What It Does
+Fine-tuned VGG16 model (pretrained on ImageNet)
 
-## 🔍 What It Does
+Classifies uploaded images as Cat or Dog
 
-- Fine-tuned VGG16 model (pretrained on ImageNet)
-- Classifies images as **Cat** or **Dog**
-- Publicly deployed as a live web app
-- Drag-and-drop interface + example image
+Returns prediction with 93.10% confidence
 
----
+Publicly deployed as a live web app
 
-## 🚀 Live Demo
+Drag-and-drop interface + example image (🐱 This is my cat Mia!)
 
-👉 [Try the classifier on Hugging Face](https://huggingface.co/spaces/yourusername/cat-vs-dog-classifier)
+🚀 Live Demo
+👉 Try the classifier on Hugging Face <!-- Replace with actual link -->
 
----
+🧠 What I Learned
+I followed a tutorial-style implementation, but made sure I understood how data preprocessing, model loading, and deployment works. The app loads a real trained model and makes live predictions through a web interface — and I fixed a real deployment error along the way!
 
-## 🧠 What I Learned
+📦 Files
+app.py — Gradio web app
 
-> I followed a tutorial-style implementation, but made sure I understood how data preprocessing, model loading, and deployment works. The app loads a real trained model and makes live predictions through a web interface — and I fixed a real deployment error along the way!
+cat_dog_model.h5 — trained VGG16 model
 
----
+test_mia.jpg — example image used by default
 
-## 📦 Files
+requirements.txt — for Hugging Face deployment
 
-- `app.py` — Gradio web app
-- `cat_dog_model.h5` — saved model
-- `test_mia.jpg` — example image shown by default
-- `requirements.txt` — for Hugging Face deployment
-
----
 
 ## 🛠 Run Locally
 
