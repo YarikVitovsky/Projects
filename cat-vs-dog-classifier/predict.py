@@ -7,7 +7,7 @@ import sys
 model = load_model("cat_dog_model.h5")
 
 # Image path — change this or pass via command line
-img_path = "Test (my own cat).jpg"
+img_path = "Test_mia.jpg"
 
 # Load and preprocess the image
 img = image.load_img(img_path, target_size=(150, 150))
