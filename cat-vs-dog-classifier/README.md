@@ -1,34 +1,44 @@
-🐶🐱 Cat vs Dog Image Classifier
+## 🐶🐱 Cat vs Dog Image Classifier
+
 A simple image classification app that predicts whether an image contains a cat or a dog — using transfer learning with VGG16, and deployed on Hugging Face Spaces using Gradio.
 
-🔍 What It Does
-Fine-tuned VGG16 model (pretrained on ImageNet)
+---
 
-Classifies uploaded images as Cat or Dog
+### 🔍 What It Does
+- VGG16 model pretrained on ImageNet, with custom classifier layers on top
+- Classifies images as **Cat** or **Dog** with 93.10% confidence
+- Publicly deployed as a live web app
+- Drag-and-drop interface + example image
 
-Returns prediction with 93.10% confidence
+---
 
-Publicly deployed as a live web app
+### 🚀 Live Demo
+👉 Try the classifier on Hugging Face: https://huggingface.co/spaces/yarikvitovsky/cat-vs-dog-classifier
 
-Drag-and-drop interface + example image (🐱 This is my cat Mia!)
+---
 
-🚀 Live Demo
-👉 Try the classifier on Hugging Face <!-- Replace with actual link -->
+### 🧠 What I Learned
+I followed a guided, tutorial-style implementation to build this project from end to end.
+Along the way, I:
 
-🧠 What I Learned
-I followed a tutorial-style implementation, but made sure I understood how data preprocessing, model loading, and deployment works. The app loads a real trained model and makes live predictions through a web interface — and I fixed a real deployment error along the way!
+- Got hands-on experience with VGG16, one of the most well-known pre-trained models in computer vision
+- Learned to use TensorFlow and Keras to build and train models
+- Trained a model to solve a real task: classifying images of cats and dogs
+- Worked with a dataset of 2,000+ labeled images
+- Built a complete ML pipeline — from data preprocessing to training to deploying a live web app
+- Deployed the trained model with Gradio on Hugging Face Spaces, allowing real-time predictions through a simple UI
 
-📦 Files
-app.py — Gradio web app
+---
 
-cat_dog_model.h5 — trained VGG16 model
+### 📦 Files
+- `app.py` — Gradio web app
+- `cat_dog_model.h5` — saved model
+- `test_mia.jpg` — example image shown by default
+- `requirements.txt` — for Hugging Face deployment
 
-test_mia.jpg — example image used by default
+---
 
-requirements.txt — for Hugging Face deployment
-
-
-## 🛠 Run Locally
+### 🛠 Run Locally
 
 ```bash
 pip install gradio tensorflow pillow numpy
