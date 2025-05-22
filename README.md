@@ -14,6 +14,8 @@ A convolutional neural network (CNN) trained to distinguish between images of ca
 🔗 **Live Demo:** [Cat vs Dog Classifier on Hugging Face](https://huggingface.co/spaces/yarikvitovsky/cat-vs-dog-classifier)  
 📂 **Code:** [`cat-vs-dog-classifier/`](./cat-vs-dog-classifier)
 
+### More to come
+
 ---
 
 ## 📌 Notes
