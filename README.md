@@ -16,17 +16,6 @@ A convolutional neural network (CNN) trained to distinguish between images of ca
 
 ---
 
-## 📦 Folder Structure
-
-\`\`\`
-Projects/
-├── cat-vs-dog-classifier/      # CNN model with Gradio demo
-├── ...                         # More projects coming soon
-└── README.md
-\`\`\`
-
----
-
 ## 📌 Notes
 
 - Large files (e.g. `.h5` models, datasets) have been removed from GitHub to comply with size limits.
