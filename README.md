@@ -16,6 +16,8 @@ A convolutional neural network (CNN) trained to distinguish between images of ca
 
 ### More to come
 
+...
+
 ---
 
 ## 📌 Notes
