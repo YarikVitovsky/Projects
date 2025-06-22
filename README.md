@@ -1,5 +1,5 @@
 @"
-# 🧠 Machine Learing Projects
+# 🧠 Projects Portfolio
 
 This repository contains my collection of machine learning and AI-related projects — from classic classification problems to real-world deployment using tools like Gradio and Hugging Face.
 
